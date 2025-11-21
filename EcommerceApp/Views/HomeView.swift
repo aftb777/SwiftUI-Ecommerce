@@ -109,6 +109,7 @@ struct HomeView: View {
         }
     }
 }
+
 #Preview {
     HomeView()
         .environment(FavoritesManager())
